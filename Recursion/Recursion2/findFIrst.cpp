@@ -10,8 +10,9 @@ int findFirst(int arr[], int size, int index, int target){
     if (arr[index]==target)
     {
         return index;
-    }
+    }else{
     return findFirst(arr, size, index+1, target);
+    }
     
 }
 
