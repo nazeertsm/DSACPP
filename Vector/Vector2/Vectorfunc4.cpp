@@ -10,7 +10,7 @@ int main()
     
     cout << v.size() << " ";
   
-    if(v.empty() == true)
+    if(v.empty() == true)  //vector is empty or not
         cout << "Empty";
     else
         cout << "Not Empty";

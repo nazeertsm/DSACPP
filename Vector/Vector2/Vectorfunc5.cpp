@@ -17,7 +17,7 @@ int main()
         cout << x << " ";
     }cout << endl;
     
-    v.resize(8, 100);  
+    v.resize(8, 100);  //resize and make default value as 100, current values remains same,
     for(int x: v){
         cout << x << " ";
     }
